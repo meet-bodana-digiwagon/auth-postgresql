@@ -5,3 +5,4 @@ node_modules/
 temp/
 .agents/
 skills-lock.json
+docs/

@@ -26,3 +26,9 @@ export class UnauthorizedError extends AppError {
     super(message, { httpStatus: 401 });
   }
 }
+
+export class ForbiddenError extends AppError {
+  constructor(message = 'Forbidden') {
+    super(message, { httpStatus: 403 });
+  }
+}

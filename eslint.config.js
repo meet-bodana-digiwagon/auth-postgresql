@@ -6,12 +6,12 @@ export default [
       n: nodePlugin,
     },
     rules: {
-      'n/no-unsupported-features/es-syntax': ['error', {
-        ignores: [
-          'modules',
-          'error-cause',
-        ],
-      }],
+      'n/no-unsupported-features/es-syntax': [
+        'error',
+        {
+          ignores: ['modules', 'error-cause'],
+        },
+      ],
       'n/no-process-exit': 'off',
       'no-unused-vars': ['error', { argsIgnorePattern: '^next$' }],
     },
